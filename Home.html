@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        .Iam {
+            display: flex;
+        }
+
+        .am {
+            padding: 0 23px;
+            font-size: 1.5rem;
+        }
+
+        .para {
+            display: flex;
+            flex:wrap;
+            padding: 0 auto;
+            justify-content: space-around;
+        }
+        .btn{
+            margin:0 250px;
+        }
+        .btn button{
+            margin:50px;
+            padding:23px;
+           background-color: white;
+           border-radius:30%;
+           position:relative;
+           overflow:hidden;
+           z-index: 2;
+           
+        }
+        button:hover{
+            background-color:  #9c97f1;
+           border-radius:100px;
+           transform:scale(1.5);
+           transition-duration:2s;
+        
+        }
+        button::before{
+            content:'Hello,I am Kirti';
+             position:absolute;
+             left:-100%;
+        }
+        button:hover::before{
+              left:0;
+              transition:1s;
+              z-index:1;
+              color:white;
+        }
+        
+       
+    </style>
+</head>
+
+<body>
+    <h1>about me</h1>
+    <div class="Iam">
+        <div class="am">
+            <h2> I am a Full Stack Java Developer from jaipur, Rajasthan.</h2>
+            You know about me what I am so here share some more things about me
+            I love to reading novels as <a href="https://www.amazon.in/Power-your-Subconscious-Mind/dp/8192910962">Power Of Subconcious mind</a>and <a href="https://www.amazon.in/Srimad-Bhagavad-Gita-HINDI-2018-Bhaktivedanta/dp/B08LCBTX3W/ref=asc_df_B08LCBTX3W/?tag=googleshopdes-21&linkCode=df0&hvadid=397">GEETA devoted to Loard
+                Krishna</a>
+            apart from that I fond of outdoor games as <a href="">Badminton</a>and love to Cooking food.
+
+        </div>
+        <img src="g3.png" alt="">
+    </div>
+    <div class="am">
+
+        <h2>some more points about me</h2>
+        <div class="para">
+            <div>
+                <img src="g1.png" alt="">
+            </div>
+            <div class="p">
+                <p>
+                    You feel happy to know that I cleared some govt exam pre test and attempt mains and very close to
+                    get govt
+                    exam
+                    but unfortunatelly miss it. but I am happy to share you about me!!!!
+                <div>
+                    I cleared <a href="https://ssc.nic.in/">SSC CGL</a>exam and <a href="">Railway NTPC</a> and cleared all 5 exam gives
+                    mains
+                    and cleared <a href=https://www.vedantu.com/full-form/afcat-full-form#:~:text=AFCAT%20is%20a%20section%20for,Technical%20and%20Non%2DTechnical%20occupations.>AFCAT EXAM</a>and more exams belong to ssc.
+                </div>
+                </p>
+                I am really feel happy I learned all these skills and share to you about me through this website .
+                <div class="btn">
+                    <button>Thanks</button>
+                </div>
+            </div>
+
+        </div>
+        
+       
+    </div>
+   
+
+
+</body>
+
+</html>
